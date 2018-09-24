@@ -7,10 +7,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
 	--color-text: #f1f1f1;
-    --color-bg: #0c0c0c;
+    --color-bg: #1f4667;
     --color-link: #1ab3de;
     --color-link-hover: #f1f1f1;
-	--color-deco: #141414;
+	--color-deco: #13334e;
 	--color-side: #353535;
 	font-family: Futura, "futura-pt", sans-serif;
 	min-height: 100vh;
@@ -19,8 +19,9 @@ body {
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	padding-top: 10rem;
+	padding-top: 5rem;
 }
+
 
 /* Page Loader */
 .js .loading::before {
@@ -111,7 +112,7 @@ a:focus {
 
 .frame a {
 	pointer-events: auto;
-}	
+}
 
 /* Header */
 .codrops-header {
@@ -259,7 +260,7 @@ a:focus {
 	transform: scale3d(1.01,1.01,1);
 }
 
-.js .slide__img-wrap, 
+.js .slide__img-wrap,
 .js .slide__title-wrap,
 .js .slide__side {
 	opacity: 0;
@@ -349,7 +350,7 @@ a:focus {
 }
 
 .content__number::before {
-	content: "\2014";
+	content: "\2018";
 	display: inline-block;
 	margin: 0 1rem 0 0;
 }
@@ -432,7 +433,7 @@ a:focus {
 		min-height: 50px;
 	}
 	.slide__side {
-		color: var(--color-side);
+		color: #4ba8f8;
 		position: relative;
 		-webkit-writing-mode: vertical-rl;
 		writing-mode: vertical-rl;
